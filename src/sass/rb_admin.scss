@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+# style admin
+--------------------------------------------------------------*/
+
+@import "variables";
+@import "rb-grid";
+
+.#{$prefix}-reservation {
+  @extend .#{$prefix}-grid;
+}
+
+.#{$prefix}-reservation__field-container {
+  @extend .#{$prefix}-grid__row;
+  margin-bottom: 12px;
+}
+
+.#{$prefix}-reservation__label {
+  @extend .#{$prefix}-grid__col--2;
+}
+
+.#{$prefix}-reservation__control--textarea {
+  width: 400px;
+  height: 100px;
+}
+
+

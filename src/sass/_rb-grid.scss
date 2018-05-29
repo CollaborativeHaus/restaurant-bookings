@@ -1,0 +1,55 @@
+/**
+ * RB GRID 
+ */
+
+@import "variables";
+@import "mixins";
+
+@mixin create-col-classes($modifier, $grid-cols, $breakpoint) {
+  @include create-mq($breakpoint, 'min') {
+    &__col#{$modifier}--offset-0 {
+      margin-left: 0;
+    }
+    @for $i from 1 through $grid-cols {
+      &__col#{$modifier}--#{$i} {
+        flex-basis: (100 / ($grid-cols / $i) ) * 1%;
+      }
+      &__col#{$modifier}--offset-#{$i} {
+        margin-left: (100 / ($grid-cols / $i) ) * 1%;
+      }
+    }
+  }
+}
+
+@each $modifier , $breakpoint in $map-grid-props {
+  @if($modifier == '') {
+    $modifier: '-xs';
+  }
+  @include create-mq($breakpoint - 1, 'max') {
+    .#{$prefix}-hidden-#{$modifier}-down {
+      display: none !important;
+    }
+  }
+  @include create-mq($breakpoint, 'min') {
+    .#{$prefix}-hidden-#{$modifier}-up {
+      display: none !important;
+    }
+  }
+}
+
+.#{$prefix}-grid {
+  max-width: $grid__bp-md * 1px;
+  margin: 0 auto;
+  &--fluid {
+    margin: 0;
+    max-width: 100%;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  @each $modifier , $breakpoint in $map-grid-props {
+    @include create-col-classes($modifier, $grid__cols, $breakpoint);
+  }
+}

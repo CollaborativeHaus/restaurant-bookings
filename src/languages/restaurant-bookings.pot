@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the restaurant-bookings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: restaurant-bookings 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 10:31-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:84
+msgid "Reservation Settings"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:199
+msgid "Test Text"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:200
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:208
+msgid "field description (optional)"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:207
+msgid "Test Color Picker"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:240
+msgid "Details of individual tables."
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:243
+msgid "Table {#}"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:244
+msgid "Add Another Table"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:245
+msgid "Remove Table"
+msgstr ""
+
+#: src/inc/fun/autoload/class-rb_options_page_rb.php:379
+msgid "Settings updated."
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:19
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:21
+msgid "Reservations"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:20
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:47
+msgid "Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:22
+msgid "Reservation Attributes"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:23
+msgid "Parent Reservation:"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:24
+msgid "All Reservations"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:25
+msgid "Add New Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:26
+msgid "Add New"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:27
+msgid "New Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:28
+msgid "Edit Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:29
+msgid "Update Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:30
+msgid "View Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:31
+msgid "View Reservations"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:32
+msgid "Search Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:33
+msgid "Not found"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:34
+msgid "Not found in Trash"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:35
+msgid "Featured Image"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:36
+msgid "Set featured image"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:37
+msgid "Remove featured image"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:38
+msgid "Use as featured image"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:39
+msgid "Insert into Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:40
+msgid "Uploaded to this Reservation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:41
+msgid "Reservations list"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:42
+msgid "Reservations list navigation"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:43
+msgid "Filter Reservations list"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:48
+msgid "Reservation description"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:75
+msgid "Reservation Details"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:172
+msgid "Date:"
+msgstr ""
+
+#: src/inc/post_types_taxs/autoload/rb_add_post_type_rb_reservation.php:172
+msgid "Time:"
+msgstr ""
