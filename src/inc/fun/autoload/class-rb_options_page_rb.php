@@ -196,21 +196,21 @@ class Rb_Options_Page_Rb {
 
 		// Set our CMB2 fields
 		$cmb->add_field( array(
-			'name' => __( 'Test Text', 'restaurant-bookings' ),
-			'desc' => __( 'field description (optional)', 'restaurant-bookings' ),
-			'id'   => $tab . '_' . 'test_text',
-			'type' => 'text',
-			'default' => 'Default Text',
-		) );
-
-		$cmb->add_field( array(
-			'name'    => __( 'Test Color Picker', 'restaurant-bookings' ),
-			'desc'    => __( 'field description (optional)', 'restaurant-bookings' ),
-			'id'   => $tab . '_' . '_test_colorpicker',
-			'type'    => 'colorpicker',
-			'default' => '#bada55',
-		) );
-
+			'name' => __( 'Seating Chart', 'restaurant-bookings' ),
+			'id'   => $tab . '_' . 'seating_chart',
+			'type' => 'file',
+			'options' => array(
+				'url' => false,
+			),
+			'query_args' => array(
+				'type' => array(
+					'image/gif',
+					'image/jpeg',
+					'image/png',
+				),
+			),
+			'preview_size' => 'large',
+		));
 	}
 
 	

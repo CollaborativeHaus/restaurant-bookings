@@ -3,19 +3,21 @@
 --------------------------------------------------------------*/
 
 @import "variables";
-@import "rb-grid";
+// @import "rb-grid";
+@import "grid-placeholders";
 
 .#{$prefix}-reservation {
-  @extend .#{$prefix}-grid;
+  @extend %#{$prefix}-grid;
+  margin: 0;
 }
 
 .#{$prefix}-reservation__field-container {
-  @extend .#{$prefix}-grid__row;
-  margin-bottom: 12px;
+  @extend %#{$prefix}-grid__row;
+  margin: 0 0 12px;
 }
 
 .#{$prefix}-reservation__label {
-  @extend .#{$prefix}-grid__col--2;
+  @extend %#{$prefix}-grid__col--2;
 }
 
 .#{$prefix}-reservation__control--textarea {

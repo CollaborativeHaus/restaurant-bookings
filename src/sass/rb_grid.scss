@@ -40,4 +40,16 @@
 
 .#{$prefix}-grid {
   @extend %#{$prefix}-grid;
+
+  &--fluid {
+    @extend %#{$prefix}-grid--fluid;
+  }
+
+  &__row {
+    @extend %#{$prefix}-grid__row;
+  }
+
+  @each $modifier , $breakpoint in $map-grid-props {
+    @include create-col-classes($modifier, $grid__cols, $breakpoint);
+  }
 }
